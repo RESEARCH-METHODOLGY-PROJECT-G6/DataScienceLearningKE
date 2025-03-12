@@ -21,9 +21,60 @@
             <p>Connect with fellow learners and get help with your data science projects.</p>
             <iframe src="https://learninghub:gitter.im" width="800" height="600"></iframe>
         </section>
-        </main>
+        <section>
+            <div class="post-container">
+                <h2>Post 1: Question about Seaborn</h2>
+                <p>I'm having trouble creating a scatter plot with Seaborn. Any tips?</p>
+                <p><strong>Author:</strong> User1 | <strong>Date:</strong> 2023-10-27</p>
+            </div>
+
+            <div class="post-container">
+                <h2>Post 2: Sharing a Plotly Dashboard</h2>
+                <p>Check out this interactive dashboard I created with Plotly Dash!</p>
+                <p><strong>Author:</strong> User2 | <strong>Date:</strong> 2023-10-26</p>
+            </div>
+
+            <div class="new-post-form">
+                <h2>Create a New Post</h2>
+                <form id="newPostForm">
+                    <input type="text" name="title" placeholder="Post Title" required>
+                    <textarea name="content" placeholder="Post Content" rows="5" required></textarea>
+                    <button type="submit">Submit Post</button>
+                </form>
+            </div>
+        </section>
+    </main>
     <footer>
         <p>&copy; 2024 Data Science Group</p>
     </footer>
+    <style>
+        .post-container {
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin-bottom: 10px;
+        }
+        .new-post-form {
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .new-post-form input, .new-post-form textarea {
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        .new-post-form button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+    <script>
+        // Optional: Add JavaScript to handle form submission and display new posts
+    </script>
 </body>
 </html>
