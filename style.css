@@ -1,32 +1,32 @@
 body {
     font-family: sans-serif;
-    margin: 0; /* Remove default body margin */
-    padding: 0; /* Remove default body padding */
-    background: linear-gradient(to bottom, #E6E6FA, #ADD8E6); /* Lavender to Sea Blue gradient */
-    color: #333; /* Dark gray text for readability */
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #E6E6FA, #ADD8E6);
+    color: #333;
 }
 
 header {
-    background-color: rgba(0, 0, 0, 0.1); /* Slightly transparent dark background for header */
+    background-color: rgba(0, 0, 0, 0.1);
     padding: 20px;
     text-align: center;
-    border-bottom: 1px solid #87CEEB; /* Sea Blue border */
+    border-bottom: 1px solid #87CEEB;
 }
 
 header h1 {
-    color: #008B8B; /* Sea Blue title */
+    color: #008B8B;
     margin: 0;
 }
 
 nav {
-    background-color: rgba(255, 255, 255, 0.2); /* Slightly transparent white for nav */
+    background-color: rgba(255, 255, 255, 0.2);
     padding: 10px;
     text-align: center;
     border-bottom: 1px solid #87CEEB;
 }
 
 nav a {
-    color: #008B8B; /* Sea Blue links */
+    color: #008B8B;
     text-decoration: none;
     padding: 10px 15px;
     margin: 0 5px;
@@ -35,20 +35,20 @@ nav a {
 }
 
 nav a:hover {
-    background-color: rgba(135, 206, 250, 0.3); /* Lighter Sea Blue hover effect */
+    background-color: rgba(135, 206, 250, 0.3);
 }
 
 main {
     padding: 20px;
-    max-width: 1200px; /* Limit main content width */
-    margin: 20px auto; /* Center main content */
-    background-color: rgba(255, 255, 255, 0.5); /* Slightly transparent white for main content */
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.5);
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 main h2, main h3 {
-    color: #008B8B; /* Sea Blue headings */
+    color: #008B8B;
     border-bottom: 1px solid #87CEEB;
     padding-bottom: 5px;
 }
@@ -57,11 +57,11 @@ section {
     margin-bottom: 20px;
     padding: 15px;
     border-radius: 8px;
-    background-color: rgba(255, 255, 255, 0.7); /* Slightly more opaque white for sections */
+    background-color: rgba(255, 255, 255, 0.7);
 }
 
 iframe {
-    width: 100%; /* Make iframes responsive */
+    width: 100%;
     border: none;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -75,6 +75,7 @@ footer {
     color: #008B8B;
 }
 
+/* Corrected Forum Styling */
 .post-container, .new-post-form {
     border: 1px solid #87CEEB;
     padding: 20px;
@@ -106,6 +107,7 @@ footer {
     background-color: #00688B;
 }
 
+/* Tutorial Styling */
 .tutorial-container {
     border: 1px solid #87CEEB;
     padding: 20px;
