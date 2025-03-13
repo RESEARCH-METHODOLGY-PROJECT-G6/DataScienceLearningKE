@@ -1,27 +1,134 @@
 body {
-        font-family: sans-serif;
-        margin: 0;
-        padding: 0;
-    }
-    header {
-        background-color: #f0f0f0;
-        padding: 20px;
-        text-align: center;
-    }
-    nav {
-        background-color: #e0e0e0;
-        padding: 10px;
-        text-align: center;
-    }
-    nav a {
-        margin: 0 10px;
-        text-decoration: none;
-    }
-    main {
-        padding: 20px;
-    }
-    footer {
-        background-color: #f0f0f0;
-        padding: 10px;
-        text-align: center;
-    }
+    font-family: sans-serif;
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+    background: linear-gradient(to bottom, #E6E6FA, #ADD8E6); /* Lavender to Sea Blue gradient */
+    color: #333; /* Dark gray text for readability */
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.1); /* Slightly transparent dark background for header */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #87CEEB; /* Sea Blue border */
+}
+
+header h1 {
+    color: #008B8B; /* Sea Blue title */
+    margin: 0;
+}
+
+nav {
+    background-color: rgba(255, 255, 255, 0.2); /* Slightly transparent white for nav */
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #87CEEB;
+}
+
+nav a {
+    color: #008B8B; /* Sea Blue links */
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: rgba(135, 206, 250, 0.3); /* Lighter Sea Blue hover effect */
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px; /* Limit main content width */
+    margin: 20px auto; /* Center main content */
+    background-color: rgba(255, 255, 255, 0.5); /* Slightly transparent white for main content */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+main h2, main h3 {
+    color: #008B8B; /* Sea Blue headings */
+    border-bottom: 1px solid #87CEEB;
+    padding-bottom: 5px;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.7); /* Slightly more opaque white for sections */
+}
+
+iframe {
+    width: 100%; /* Make iframes responsive */
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid #87CEEB;
+    color: #008B8B;
+}
+
+.post-container, .new-post-form {
+    border: 1px solid #87CEEB;
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+}
+
+.new-post-form input, .new-post-form textarea {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #87CEEB;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.new-post-form button {
+    padding: 10px 20px;
+    background-color: #008B8B;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.new-post-form button:hover {
+    background-color: #00688B;
+}
+
+.tutorial-container {
+    border: 1px solid #87CEEB;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+}
+
+.tutorial-container img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.tutorial-container a {
+    color: #008B8B;
+    text-decoration: none;
+    padding: 8px 12px;
+    background-color: rgba(135, 206, 250, 0.3);
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.tutorial-container a:hover {
+    background-color: rgba(135, 206, 250, 0.5);
+}
